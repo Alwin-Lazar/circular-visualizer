@@ -7,17 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED2D72D7204C1CE000BB5574 /* CircularVisualizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72D6204C1CE000BB5574 /* CircularVisualizerView.swift */; };
+		ED2D72D9204C224B00BB5574 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72D8204C224B00BB5574 /* HomeVC.swift */; };
+		ED2D72F2204C22FF00BB5574 /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72DF204C22FD00BB5574 /* STKDataSourceWrapper.m */; };
+		ED2D72F3204C22FF00BB5574 /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72E0204C22FD00BB5574 /* STKLocalFileDataSource.m */; };
+		ED2D72F4204C22FF00BB5574 /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72E1204C22FD00BB5574 /* STKDataSource.m */; };
+		ED2D72F5204C22FF00BB5574 /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72E2204C22FD00BB5574 /* NSMutableArray+STKAudioPlayer.m */; };
+		ED2D72F6204C22FF00BB5574 /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72E3204C22FD00BB5574 /* STKAudioPlayer.m */; };
+		ED2D72F7204C22FF00BB5574 /* SampleQueueId.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72E4204C22FD00BB5574 /* SampleQueueId.m */; };
+		ED2D72F8204C22FF00BB5574 /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72E7204C22FE00BB5574 /* STKCoreFoundationDataSource.m */; };
+		ED2D72F9204C22FF00BB5574 /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72E8204C22FE00BB5574 /* STKAutoRecoveringHTTPDataSource.m */; };
+		ED2D72FA204C22FF00BB5574 /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72E9204C22FE00BB5574 /* STKHTTPDataSource.m */; };
+		ED2D72FB204C22FF00BB5574 /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2D72ED204C22FE00BB5574 /* STKQueueEntry.m */; };
 		ED517D61204B07D600172482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED517D60204B07D600172482 /* AppDelegate.swift */; };
-		ED517D63204B07D600172482 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED517D62204B07D600172482 /* ViewController.swift */; };
 		ED517D66204B07D600172482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED517D64204B07D600172482 /* Main.storyboard */; };
 		ED517D68204B07D600172482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED517D67204B07D600172482 /* Assets.xcassets */; };
 		ED517D6B204B07D600172482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED517D69204B07D600172482 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED2D72D6204C1CE000BB5574 /* CircularVisualizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularVisualizerView.swift; sourceTree = "<group>"; };
+		ED2D72D8204C224B00BB5574 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		ED2D72DC204C22FC00BB5574 /* Circular Visualizer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Circular Visualizer-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED2D72DD204C22FD00BB5574 /* STKHTTPDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKHTTPDataSource.h; sourceTree = "<group>"; };
+		ED2D72DE204C22FD00BB5574 /* StreamingKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-Prefix.pch"; sourceTree = "<group>"; };
+		ED2D72DF204C22FD00BB5574 /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKDataSourceWrapper.m; sourceTree = "<group>"; };
+		ED2D72E0204C22FD00BB5574 /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKLocalFileDataSource.m; sourceTree = "<group>"; };
+		ED2D72E1204C22FD00BB5574 /* STKDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKDataSource.m; sourceTree = "<group>"; };
+		ED2D72E2204C22FD00BB5574 /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
+		ED2D72E3204C22FD00BB5574 /* STKAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKAudioPlayer.m; sourceTree = "<group>"; };
+		ED2D72E4204C22FD00BB5574 /* SampleQueueId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleQueueId.m; sourceTree = "<group>"; };
+		ED2D72E5204C22FE00BB5574 /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
+		ED2D72E6204C22FE00BB5574 /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKLocalFileDataSource.h; sourceTree = "<group>"; };
+		ED2D72E7204C22FE00BB5574 /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
+		ED2D72E8204C22FE00BB5574 /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
+		ED2D72E9204C22FE00BB5574 /* STKHTTPDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKHTTPDataSource.m; sourceTree = "<group>"; };
+		ED2D72EA204C22FE00BB5574 /* STKQueueEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKQueueEntry.h; sourceTree = "<group>"; };
+		ED2D72EB204C22FE00BB5574 /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
+		ED2D72EC204C22FE00BB5574 /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKDataSourceWrapper.h; sourceTree = "<group>"; };
+		ED2D72ED204C22FE00BB5574 /* STKQueueEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKQueueEntry.m; sourceTree = "<group>"; };
+		ED2D72EE204C22FE00BB5574 /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
+		ED2D72EF204C22FE00BB5574 /* STKDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKDataSource.h; sourceTree = "<group>"; };
+		ED2D72F0204C22FF00BB5574 /* STKAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKAudioPlayer.h; sourceTree = "<group>"; };
+		ED2D72F1204C22FF00BB5574 /* SampleQueueId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleQueueId.h; sourceTree = "<group>"; };
 		ED517D5D204B07D600172482 /* Circular Visualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Circular Visualizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED517D60204B07D600172482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED517D62204B07D600172482 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED517D65204B07D600172482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED517D67204B07D600172482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED517D6A204B07D600172482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +69,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED2D72D5204C1C9800BB5574 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D72D6204C1CE000BB5574 /* CircularVisualizerView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		ED2D72DB204C22E200BB5574 /* StreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D72E5204C22FE00BB5574 /* NSMutableArray+STKAudioPlayer.h */,
+				ED2D72E2204C22FD00BB5574 /* NSMutableArray+STKAudioPlayer.m */,
+				ED2D72F1204C22FF00BB5574 /* SampleQueueId.h */,
+				ED2D72E4204C22FD00BB5574 /* SampleQueueId.m */,
+				ED2D72F0204C22FF00BB5574 /* STKAudioPlayer.h */,
+				ED2D72E3204C22FD00BB5574 /* STKAudioPlayer.m */,
+				ED2D72EE204C22FE00BB5574 /* STKAutoRecoveringHTTPDataSource.h */,
+				ED2D72E8204C22FE00BB5574 /* STKAutoRecoveringHTTPDataSource.m */,
+				ED2D72EB204C22FE00BB5574 /* STKCoreFoundationDataSource.h */,
+				ED2D72E7204C22FE00BB5574 /* STKCoreFoundationDataSource.m */,
+				ED2D72EF204C22FE00BB5574 /* STKDataSource.h */,
+				ED2D72E1204C22FD00BB5574 /* STKDataSource.m */,
+				ED2D72EC204C22FE00BB5574 /* STKDataSourceWrapper.h */,
+				ED2D72DF204C22FD00BB5574 /* STKDataSourceWrapper.m */,
+				ED2D72DD204C22FD00BB5574 /* STKHTTPDataSource.h */,
+				ED2D72E9204C22FE00BB5574 /* STKHTTPDataSource.m */,
+				ED2D72E6204C22FE00BB5574 /* STKLocalFileDataSource.h */,
+				ED2D72E0204C22FD00BB5574 /* STKLocalFileDataSource.m */,
+				ED2D72EA204C22FE00BB5574 /* STKQueueEntry.h */,
+				ED2D72ED204C22FE00BB5574 /* STKQueueEntry.m */,
+				ED2D72DE204C22FD00BB5574 /* StreamingKit-Prefix.pch */,
+			);
+			path = StreamingKit;
+			sourceTree = "<group>";
+		};
 		ED517D54204B07D600172482 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +124,57 @@
 		ED517D5F204B07D600172482 /* Circular Visualizer */ = {
 			isa = PBXGroup;
 			children = (
-				ED517D60204B07D600172482 /* AppDelegate.swift */,
-				ED517D62204B07D600172482 /* ViewController.swift */,
-				ED517D64204B07D600172482 /* Main.storyboard */,
-				ED517D67204B07D600172482 /* Assets.xcassets */,
-				ED517D69204B07D600172482 /* LaunchScreen.storyboard */,
-				ED517D6C204B07D600172482 /* Info.plist */,
+				ED517D75204B080F00172482 /* Model */,
+				ED517D74204B080C00172482 /* View */,
+				ED517D73204B080900172482 /* Controller */,
+				ED517D72204B080600172482 /* Resources */,
 			);
 			path = "Circular Visualizer";
+			sourceTree = "<group>";
+		};
+		ED517D72204B080600172482 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D72DC204C22FC00BB5574 /* Circular Visualizer-Bridging-Header.h */,
+				ED2D72DB204C22E200BB5574 /* StreamingKit */,
+				ED517D60204B07D600172482 /* AppDelegate.swift */,
+				ED517D67204B07D600172482 /* Assets.xcassets */,
+				ED517D6C204B07D600172482 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED517D73204B080900172482 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D72D8204C224B00BB5574 /* HomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ED517D74204B080C00172482 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED2D72D5204C1C9800BB5574 /* Custom Views */,
+				ED517D76204B083900172482 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED517D75204B080F00172482 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED517D76204B083900172482 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ED517D64204B07D600172482 /* Main.storyboard */,
+				ED517D69204B07D600172482 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +209,13 @@
 				TargetAttributes = {
 					ED517D5C204B07D600172482 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,8 +255,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED517D63204B07D600172482 /* ViewController.swift in Sources */,
+				ED2D72D9204C224B00BB5574 /* HomeVC.swift in Sources */,
+				ED2D72F4204C22FF00BB5574 /* STKDataSource.m in Sources */,
 				ED517D61204B07D600172482 /* AppDelegate.swift in Sources */,
+				ED2D72FA204C22FF00BB5574 /* STKHTTPDataSource.m in Sources */,
+				ED2D72D7204C1CE000BB5574 /* CircularVisualizerView.swift in Sources */,
+				ED2D72F6204C22FF00BB5574 /* STKAudioPlayer.m in Sources */,
+				ED2D72F5204C22FF00BB5574 /* NSMutableArray+STKAudioPlayer.m in Sources */,
+				ED2D72F9204C22FF00BB5574 /* STKAutoRecoveringHTTPDataSource.m in Sources */,
+				ED2D72F2204C22FF00BB5574 /* STKDataSourceWrapper.m in Sources */,
+				ED2D72FB204C22FF00BB5574 /* STKQueueEntry.m in Sources */,
+				ED2D72F8204C22FF00BB5574 /* STKCoreFoundationDataSource.m in Sources */,
+				ED2D72F7204C22FF00BB5574 /* SampleQueueId.m in Sources */,
+				ED2D72F3204C22FF00BB5574 /* STKLocalFileDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,13 +404,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Circular Visualizer/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Circular Visualizer/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zaconic.app.Circular-Visualizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Circular Visualizer/Resources/Circular Visualizer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -288,13 +422,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Circular Visualizer/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Circular Visualizer/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zaconic.app.Circular-Visualizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Circular Visualizer/Resources/Circular Visualizer-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
